@@ -31,9 +31,9 @@ spring:
   dubbo:
     application:
       name: provider
-    scan: io.tooko.sboot.service.impl
+    scan: io.tooko.sboot.service
     protocol:
       name: dubbo
-      port: 20880
+      port: 20881
     registry:
       address: zookeeper://127.0.0.1:2181
